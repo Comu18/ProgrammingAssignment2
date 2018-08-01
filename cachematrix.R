@@ -34,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
     return(list(set = set, get = get, setinv = setinv, getinv = getinv))
 
 
-# Cachesolve function- a closure function will compute the inverse of the "matrix" created by "makeCachematrix"
+# Cachesolve function- a closure function, will compute the inverse of the "matrix" created by "makeCachematrix" function
 
 
 cacheSolve <- function(x, ...) {
